@@ -1,0 +1,552 @@
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.header {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
+
+.logo-pic {
+
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #575757;
+}
+
+nav ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: aqua;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul li.active::after,
+nav ul li:hover::after {
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+
+.eros {
+
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid red;
+    position: relative;
+}
+
+.eros-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.eros:hover .eros-image {
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.eros:hover .description1 {
+    opacity: 1;
+}
+
+.valentino {
+
+
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid gold;
+    position: relative;
+}
+
+.valentino-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.valentino:hover .valentino-image {
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.valentino:hover .description2 {
+    opacity: 1;
+}
+
+
+
+.channel {
+
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+}
+
+.channel-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.channel:hover .channel-image {
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.channel:hover .description3 {
+    opacity: 1;
+}
+
+.prada {
+
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+}
+
+.prada-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.prada:hover .prada-image {
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.prada:hover .description4 {
+    opacity: 1;
+}
+
+.creed {
+
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid black;
+    position: relative;
+}
+
+.creed-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.creed:hover .creed-image {
+
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description5 {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.creed:hover .description5 {
+    opacity: 1;
+}
+
+.dior {
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid orange;
+    position: relative;
+}
+
+.dior-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dior:hover .dior-image {
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.dior:hover .description6 {
+    opacity: 1;
+}
+
+
+.elexir {
+
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid rgb(216, 196, 14);
+    position: relative;
+}
+
+.elexir-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.elexir:hover .elexir-image {
+
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description7 {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.elexir:hover .description7 {
+    opacity: 1;
+}
+
+.lebeau {
+
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid darkcyan;
+    position: relative;
+}
+
+.lebeau-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lebeau:hover .lebeau-image {
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description8 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.lebeau:hover .description8 {
+    opacity: 1;
+}
+
+.lemale {
+
+    text-align: center;
+    max-height: 500px;
+    max-width: 260px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid aqua;
+    position: relative;
+}
+
+.lemale-image {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lemale:hover .lemale-image {
+
+    transform: scale(1.1);
+    filter: blur(3px);
+
+}
+
+.description9 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.lemale:hover .description9 {
+    opacity: 1;
+}
+
+.mens-box {
+
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    height: 300px;
+    margin-left: 230px;
+    margin-top: 300px;
+
+
+}
+
+.valentino>img,
+.channel>img,
+.prada>img,
+.creed>image,
+.dior>img,
+.elexir>img,
+.lebeau>img,
+.lemale>img {
+
+    height: 338px;
+    width: 235px;
+}
+
+.men-img {
+    animation: bounce 2s ease-in-out infinite;
+    width: 50%;
+    height: auto;
+    width: 300px;
+    height: auto;
+    margin-right: 50px;
+
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+.intro-men {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.text-intro{
+    
+    width: 500px;
+}
+
+.footer {
+
+    margin-top: 100%;
+    background-color: #033b68;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+    align-items: center;
+
+  }
+
+.footer-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  
+  .footer-content li {
+    margin-right: 20px;
+
+  }
+  
+
+  footer > li {
+
+    display: flex;
+    justify-content: row;
+  }

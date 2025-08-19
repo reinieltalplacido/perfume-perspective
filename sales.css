@@ -1,0 +1,136 @@
+main {
+    box-sizing: border-box;
+}
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lahat {
+
+    margin-top: 2%;
+    box-sizing: border-box;
+}
+
+.header {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
+
+.logo-pic {
+
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #575757;
+}
+
+nav ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: aqua;
+    transition: width 0.3s ease-in-out;
+}
+
+nav ul li.active::after,
+nav ul li:hover::after {
+    width: 100%;
+}
+
+
+.sales {
+
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    background-color: cyan;
+}
+
+.sales th,
+.sales td {
+
+    border: 1px solid black;
+
+}
+
+thead {
+    background-color: CYAN;
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+
+    margin-top: 18%;
+    background-color: #033b68;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: row;
+    align-items: center;
+  
+  }
+  .footer-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .footer-content p {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  
+  
+  .footer-content li {
+    margin-right: 20px;
+  
+  }
+  
+  
+  footer > li {
+  
+    display: flex;
+    justify-content: row;
+  }
